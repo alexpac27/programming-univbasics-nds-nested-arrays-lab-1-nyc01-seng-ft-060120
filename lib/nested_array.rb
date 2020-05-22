@@ -17,10 +17,7 @@ CONVENTIONAL_PRODUCE = [
 ]
 
 def assembled_matrix
-  food = [
-    [CONVENTIONAL_PRODUCE],
-    [ORGANIC_PRODUCE]
-         ]
+  food = [CONVENTIONAL_PRODUCE,ORGANIC_PRODUCE]
   p food
 end
 
